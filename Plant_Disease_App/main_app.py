@@ -6,7 +6,7 @@ from keras.models import load_model
 
 
 #Loading the Model
-model = load_model('/Users/Ankush/Desktop/Data Science/Plant Disease Classification/plant_disease.h5')
+model = load_model('./plant_disease.h5')
 
 #Name of Classes
 CLASS_NAMES = ['Corn_Common_Rust', 'Potato_Early_Blight', 'Tomato_Bacterial_Spot']
